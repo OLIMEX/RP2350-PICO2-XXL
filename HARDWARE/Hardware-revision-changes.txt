@@ -6,8 +6,8 @@ Hardware revision B:
 
 1. SD card now in SPI mode by default;
 2. SD_DAT0 changed from "GPIO12\SPI1_RX\SD_DAT0" to "GPIO24\SPI1_RX\SD_DAT0" to avoid multiplexing;
-3. Added R27 to provide an option to change SD_DAT0 to GPIO9\SPI1_CSn;
-4. Chnaged L2 package L_20_16_MM and value 1.0uH/4.2A/DCR=35mR/20%/2.00x1.60x1.00mm/L2016(PIM201610-1R0MTS00).
+3. Added R27 to provide an option for 1-bit mode and to change SD_DAT0 to GPIO9\SPI1_CSn;
+4. Changed L2 package L_20_16_MM and value 1.0uH/4.2A/DCR=35mR/20%/2.00x1.60x1.00mm/L2016(PIM201610-1R0MTS00).
 ---
 
 Hardware revision A:
